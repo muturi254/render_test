@@ -2,6 +2,7 @@ databases:
   - name: deploy
     databaseName: deploy
     user: deploy
+    plan: free
 
 services:
   - type: web
