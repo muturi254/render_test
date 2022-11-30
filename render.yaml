@@ -10,7 +10,7 @@ services:
     env: ruby
     plan: free
     autoDeploy: false
-    buildCommand: "./bin/render_build.sh"
+    buildCommand: "./bin/render-build.sh"
     # startCommand: "bundle exec puma -C config/puma.rb"
     startCommand: "rails s"
     envVars:
